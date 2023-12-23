@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "youtube-dl-web"
+version = "0.1.0"
+description = ""
+authors = ["Advik <adviksingh6632@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+litestar = {extras = ["standard"], version = "^2.4.5"}
+yt-dlp = "^2023.11.16"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

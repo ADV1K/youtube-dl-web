@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <header>
+        <h1>YouTube Downloader</h1>
+    </header>
+
+    <form action="/download" method="POST">
+        <input type="text" name="url" placeholder="Enter Video URL" required>
+        <button type="submit">Download</button>
+    </form>
+{% endblock %}
